@@ -211312,12 +211312,12 @@
         {
             "GapfillDirection": "=",
             "base_cost": 4,
-            "direction": "<",
+            "direction": ">",
             "forward_penalty": 1.674,
             "id": "rxn11944_c",
-            "lower_bound": -1000,
-            "maxforflux": 0,
-            "maxrevflux": 1000.0,
+            "lower_bound": 0,
+            "maxforflux": 1000,
+            "maxrevflux": 0.0,
             "name": "Methyltransferase",
             "reaction_ref": "kbase/default/reactions/id/rxn11944",
             "reverse_penalty": 0,
@@ -211348,7 +211348,7 @@
                 "~/complexes/id/cpx00127"
             ],
             "type": "conditional",
-            "upper_bound": 0
+            "upper_bound": 1000
         },
         {
             "GapfillDirection": "=",
@@ -212523,14 +212523,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 4,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn05136_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "p-coumaroyl-CoA:quinate hydroxycinnamoyltransferase",
             "reaction_ref": "kbase/default/reactions/id/rxn05136",
             "reverse_penalty": 0.6386,
@@ -212555,7 +212555,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -215679,14 +215679,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 5,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn01885_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "CTP:choline-phosphate cytidylyltransferase",
             "reaction_ref": "kbase/default/reactions/id/rxn01885",
             "reverse_penalty": 0,
@@ -215711,7 +215711,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -220044,14 +220044,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 5,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn01349_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "acetyl-CoA:hydrogen-sulfide S-acetyltransferase",
             "reaction_ref": "kbase/default/reactions/id/rxn01349",
             "reverse_penalty": 0,
@@ -220076,7 +220076,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": ">",
@@ -229614,12 +229614,12 @@
         {
             "GapfillDirection": "=",
             "base_cost": 2,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn03482_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "Salicin 6-phosphate glucohydrolase",
             "reaction_ref": "kbase/default/reactions/id/rxn03482",
             "reverse_penalty": 0.6887,
@@ -229646,7 +229646,7 @@
                 "~/complexes/id/cpx00340"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": ">",
@@ -230520,12 +230520,12 @@
         {
             "GapfillDirection": "=",
             "base_cost": 2,
-            "direction": "<",
+            "direction": ">",
             "forward_penalty": 2.046,
             "id": "rxn00837_c",
-            "lower_bound": -1000,
-            "maxforflux": 0,
-            "maxrevflux": 1000.0,
+            "lower_bound": 0,
+            "maxforflux": 1000,
+            "maxrevflux": 0.0,
             "name": "inosine-5'-phosphate:NADP+ oxidoreductase (aminating)",
             "reaction_ref": "kbase/default/reactions/id/rxn00837",
             "reverse_penalty": 0,
@@ -230560,7 +230560,7 @@
                 "~/complexes/id/cpx01363"
             ],
             "type": "conditional",
-            "upper_bound": 0
+            "upper_bound": 1000
         },
         {
             "GapfillDirection": "=",
@@ -232389,14 +232389,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 5,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn01030_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "ATP:agmatine N4-phosphotransferase",
             "reaction_ref": "kbase/default/reactions/id/rxn01030",
             "reverse_penalty": 0,
@@ -232425,7 +232425,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -237468,14 +237468,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 6,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 10.36042,
             "id": "rxn09566_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "pyridoxal oxidase",
             "reaction_ref": "kbase/default/reactions/id/rxn09566",
             "reverse_penalty": 0,
@@ -237508,7 +237508,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "gapfilling",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -239033,14 +239033,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 6,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn03501_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "1-Carboxyvinyl carboxyphosphonate phosphorylmutase (decarboxylating)",
             "reaction_ref": "kbase/default/reactions/id/rxn03501",
             "reverse_penalty": 0,
@@ -239065,7 +239065,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -295973,14 +295973,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": "<",
+            "GapfillDirection": ">",
             "base_cost": 3,
-            "direction": "<",
+            "direction": ">",
             "forward_penalty": 0,
             "id": "rxn00206_c",
-            "lower_bound": -1000,
-            "maxforflux": 0,
-            "maxrevflux": 1000.0,
+            "lower_bound": 0,
+            "maxforflux": 1000,
+            "maxrevflux": 0.0,
             "name": "superoxide:superoxide oxidoreductase",
             "reaction_ref": "kbase/default/reactions/id/rxn00206",
             "reverse_penalty": -2.59697,
@@ -296013,7 +296013,7 @@
                 "~/complexes/id/tcpx00222"
             ],
             "type": "conditional",
-            "upper_bound": 0
+            "upper_bound": 1000
         },
         {
             "GapfillDirection": ">",
@@ -307091,14 +307091,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 5,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn01572_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "Feruloyl-CoA:quinate O-(hydroxycinnamoyl)transferase",
             "reaction_ref": "kbase/default/reactions/id/rxn01572",
             "reverse_penalty": 0.6386,
@@ -307123,7 +307123,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": ">",
@@ -315598,12 +315598,12 @@
         {
             "GapfillDirection": "=",
             "base_cost": 2,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn05119_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "L-aspartate:NAD+ oxidoreductase (deaminating)",
             "reaction_ref": "kbase/default/reactions/id/rxn05119",
             "reverse_penalty": -1.164,
@@ -315634,7 +315634,7 @@
                 "~/complexes/id/cpx00550"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -324923,14 +324923,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 5,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn00721_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "ATP:anthranilate N-adenylyltransferase",
             "reaction_ref": "kbase/default/reactions/id/rxn00721",
             "reverse_penalty": -0.0470000000000002,
@@ -324959,7 +324959,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -330301,14 +330301,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 4,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn01802_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "Glutaryl-CoA:(acceptor) 2,3-oxidoreductase (decarboxylating)",
             "reaction_ref": "kbase/default/reactions/id/rxn01802",
             "reverse_penalty": 0,
@@ -330343,7 +330343,7 @@
                 "~/complexes/id/tcpx01116"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": ">",
@@ -336171,14 +336171,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 2,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 3.21,
             "id": "rxn00986_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "ATP:propanoate adenylyltransferase",
             "reaction_ref": "kbase/default/reactions/id/rxn00986",
             "reverse_penalty": 0,
@@ -336205,7 +336205,7 @@
                 "~/complexes/id/cpx00848"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": ">",
@@ -343279,14 +343279,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 6,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 3.17,
             "id": "rxn09219_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "quinol monooxygenase (Ubiquinol-8)",
             "reaction_ref": "kbase/default/reactions/id/rxn09219",
             "reverse_penalty": 0,
@@ -343315,7 +343315,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "gapfilling",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -344761,12 +344761,12 @@
         {
             "GapfillDirection": "=",
             "base_cost": 2,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn03481_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "Arbutin 6-phosphate glucohydrolase",
             "reaction_ref": "kbase/default/reactions/id/rxn03481",
             "reverse_penalty": 0.6887,
@@ -344793,7 +344793,7 @@
                 "~/complexes/id/cpx00340"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -347090,14 +347090,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 6,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn08167_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "L-aspartate oxidase",
             "reaction_ref": "kbase/default/reactions/id/rxn08167",
             "reverse_penalty": -3.3169,
@@ -347126,7 +347126,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "gapfilling",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": ">",
@@ -361257,12 +361257,12 @@
         {
             "GapfillDirection": "=",
             "base_cost": 4,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn09992_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "6-phospho-beta-glucosidase",
             "reaction_ref": "kbase/default/reactions/id/rxn09992",
             "reverse_penalty": 0.6887,
@@ -361289,7 +361289,7 @@
                 "~/complexes/id/cpx00341"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -365878,7 +365878,7 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 2,
             "direction": "=",
             "forward_penalty": 0,
@@ -369113,14 +369113,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 2,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn03108_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "ATP:4-amino-2-methyl-5-phosphomethylpyrimidine phosphotransferase",
             "reaction_ref": "kbase/default/reactions/id/rxn03108",
             "reverse_penalty": 0,
@@ -369152,7 +369152,7 @@
                 "~/complexes/id/tcpx01095"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -390629,14 +390629,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 6,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn08679_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "GTP amine hydrolysis (spontaneous)",
             "reaction_ref": "kbase/default/reactions/id/rxn08679",
             "reverse_penalty": 0.1117,
@@ -390665,7 +390665,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "gapfilling",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -402115,12 +402115,12 @@
         {
             "GapfillDirection": "=",
             "base_cost": 3,
-            "direction": "<",
+            "direction": ">",
             "forward_penalty": 2.19225,
             "id": "rxn07307_c",
-            "lower_bound": -1000,
-            "maxforflux": 0,
-            "maxrevflux": 1000.0,
+            "lower_bound": 0,
+            "maxforflux": 1000,
+            "maxrevflux": 0.0,
             "name": "(2R)-O-phospho-3-sulfolactate sulfo-lyase",
             "reaction_ref": "kbase/default/reactions/id/rxn07307",
             "reverse_penalty": 0,
@@ -402143,7 +402143,7 @@
                 "~/complexes/id/cpx00242"
             ],
             "type": "conditional",
-            "upper_bound": 0
+            "upper_bound": 1000
         },
         {
             "GapfillDirection": ">",
@@ -408172,14 +408172,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 5,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn07200_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "hydrogen:NADP+ oxidoreductase",
             "reaction_ref": "kbase/default/reactions/id/rxn07200",
             "reverse_penalty": 0,
@@ -408207,7 +408207,7 @@
                 "~/complexes/id/tcpx01250"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": ">",
@@ -417417,14 +417417,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 3,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn02569_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "ATP:selenide, water phosphotransferase",
             "reaction_ref": "kbase/default/reactions/id/rxn02569",
             "reverse_penalty": 0,
@@ -417463,7 +417463,7 @@
                 "~/complexes/id/cpx00473"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -427659,12 +427659,12 @@
         {
             "GapfillDirection": "=",
             "base_cost": 2,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn05117_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "L-aspartate:NADP+ oxidoreductase (deaminating)",
             "reaction_ref": "kbase/default/reactions/id/rxn05117",
             "reverse_penalty": -1.164,
@@ -427695,7 +427695,7 @@
                 "~/complexes/id/cpx00550"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -433078,14 +433078,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 4,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 2.3996,
             "id": "rxn00380_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "ADP:sulfate adenylyltransferase",
             "reaction_ref": "kbase/default/reactions/id/rxn00380",
             "reverse_penalty": 0,
@@ -433112,7 +433112,7 @@
                 "~/complexes/id/tcpx01150"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -436473,14 +436473,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 4,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn03545_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "R05230",
             "reaction_ref": "kbase/default/reactions/id/rxn03545",
             "reverse_penalty": 0.2696,
@@ -436505,7 +436505,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -446092,12 +446092,12 @@
         {
             "GapfillDirection": "=",
             "base_cost": 2,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 2.045,
             "id": "rxn00288_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "Succinate:(acceptor) oxidoreductase",
             "reaction_ref": "kbase/default/reactions/id/rxn00288",
             "reverse_penalty": 0,
@@ -446129,7 +446129,7 @@
                 "~/complexes/id/tcpx00246"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": ">",
@@ -447623,12 +447623,12 @@
         {
             "GapfillDirection": "=",
             "base_cost": 4,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn08656_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "Glycolate oxidase",
             "reaction_ref": "kbase/default/reactions/id/rxn08656",
             "reverse_penalty": -0.3849,
@@ -447655,7 +447655,7 @@
                 "~/complexes/id/cpx00363"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -448702,12 +448702,12 @@
         {
             "GapfillDirection": "=",
             "base_cost": 1,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn12147_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "3D-(3,5/4)-Trihydroxycyclohexane-1,2-dione acylhydrolase (decyclizing)",
             "reaction_ref": "kbase/default/reactions/id/rxn12147",
             "reverse_penalty": 0.0557000000000001,
@@ -448734,7 +448734,7 @@
                 "~/complexes/id/cpx00504"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -456102,14 +456102,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 4,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 1.9636,
             "id": "rxn03755_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "R05455",
             "reaction_ref": "kbase/default/reactions/id/rxn03755",
             "reverse_penalty": 0,
@@ -456134,7 +456134,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "gapfilling",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": ">",
@@ -462910,14 +462910,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 6,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 10.68597,
             "id": "rxn13150_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "5-formyltetrahydrofolate cyclo-ligase",
             "reaction_ref": "kbase/default/reactions/id/rxn13150",
             "reverse_penalty": 0,
@@ -462958,7 +462958,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "gapfilling",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -466308,12 +466308,12 @@
         {
             "GapfillDirection": "=",
             "base_cost": 2,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn01225_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "Guanine aminohydrolase",
             "reaction_ref": "kbase/default/reactions/id/rxn01225",
             "reverse_penalty": 0.1117,
@@ -466344,7 +466344,7 @@
                 "~/complexes/id/cpx01633"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -469480,14 +469480,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 4,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn04588_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "R06772",
             "reaction_ref": "kbase/default/reactions/id/rxn04588",
             "reverse_penalty": 0.2696,
@@ -469512,7 +469512,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -469939,14 +469939,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 2,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn01538_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "ATP:thiamine phosphotransferase",
             "reaction_ref": "kbase/default/reactions/id/rxn01538",
             "reverse_penalty": 0,
@@ -469977,7 +469977,7 @@
                 "~/complexes/id/cpx01805"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -474733,7 +474733,7 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 4,
             "direction": "<",
             "forward_penalty": 8.57428,
@@ -480795,14 +480795,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 7,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn10002_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "Heme D synthase",
             "reaction_ref": "kbase/default/reactions/id/rxn10002",
             "reverse_penalty": 0,
@@ -480827,7 +480827,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "gapfilling",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -497142,14 +497142,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 4,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn05887_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "Hydrogen:NAD+ oxidoreductase",
             "reaction_ref": "kbase/default/reactions/id/rxn05887",
             "reverse_penalty": 0,
@@ -497177,7 +497177,7 @@
                 "~/complexes/id/tcpx00385"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -516949,12 +516949,12 @@
         {
             "GapfillDirection": "=",
             "base_cost": 3.85,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 1000,
             "id": "rxn16371_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "sulfite:O-phospho-L-serine sulfotransferase (phosphate-hydrolysing, L-cysteate-forming)",
             "reaction_ref": "kbase/default/reactions/id/rxn16371",
             "reverse_penalty": 1000,
@@ -516981,7 +516981,7 @@
                 "~/complexes/id/tcpx01008"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -519438,12 +519438,12 @@
         {
             "GapfillDirection": "=",
             "base_cost": 3.85,
-            "direction": "<",
+            "direction": ">",
             "forward_penalty": 1000,
             "id": "rxn16828_c",
-            "lower_bound": -1000,
-            "maxforflux": 0,
-            "maxrevflux": 1000.0,
+            "lower_bound": 0,
+            "maxforflux": 1000,
+            "maxrevflux": 0.0,
             "name": "R09982",
             "reaction_ref": "kbase/default/reactions/id/rxn16828",
             "reverse_penalty": 1000,
@@ -519466,7 +519466,7 @@
                 "~/complexes/id/tcpx01165"
             ],
             "type": "conditional",
-            "upper_bound": 0
+            "upper_bound": 1000
         },
         {
             "GapfillDirection": "=",
